@@ -7,8 +7,8 @@ const global__nav = 'bg-black-100 px-[6.4vw] py-[8.54vw]'
 const global__nav__ul = 'flex items-center'
 const global__nav__li = 'm-auto'
 
-const global__nav__lg = 'px-[5.20vw] py-[4.16vw] '
-const global__nav__li__lg = 'ml-[42px] mr-auto'
+const global__nav__lg = 'lg:px-[5.20vw] lg:py-[4.16vw] '
+const global__nav__li__lg = 'lg:ml-[42px] lg:mr-auto'
 
 const Navigation = () => {
   return (
