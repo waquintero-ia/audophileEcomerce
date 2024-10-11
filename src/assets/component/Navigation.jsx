@@ -7,15 +7,18 @@ const global__nav = 'bg-black-100 px-[6.4vw] py-[8.54vw]'
 const global__nav__ul = 'flex items-center'
 const global__nav__li = 'm-auto'
 
+const global__nav__lg = 'px-[5.20vw] py-[4.16vw] '
+const global__nav__li__lg = 'ml-[42px] mr-auto'
+
 const Navigation = () => {
   return (
     <>
-      <nav className={`${global__nav}`}>
+      <nav className={`${global__nav} ${global__nav__lg}`}>
         <ul className={`${global__nav__ul}`}>
           <li>
             <img src={hamburguer} alt="hamburguer" />
           </li>
-          <li className={`${global__nav__li}`}>
+          <li className={`${global__nav__li} ${global__nav__li__lg}`}>
             <Link to={'/'}>
               <img src={logo} alt="logo" />
             </Link>
