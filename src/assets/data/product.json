@@ -1,0 +1,17 @@
+[
+  {
+    "category": "headphones",
+    "imageCategory": "./images/image-category-thumbnail-headphones.png",
+    "altCategory": "buy headphones"
+  },
+  {
+    "category": "speakers",
+    "imageCategory": "/images/image-category-thumbnail-speakers.png",
+    "altCategory": "buy speakers"
+  },
+  {
+    "category": "earphones",
+    "imageCategory": "/images/image-category-thumbnail-earphones.png",
+    "altCategory": "buy earphones"
+  }
+]

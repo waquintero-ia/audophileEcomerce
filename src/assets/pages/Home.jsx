@@ -1,3 +1,4 @@
+import Categories from '../component/Categories'
 import Hero from '../component/Hero'
 import Navigation from '../component/Navigation'
 
@@ -11,6 +12,7 @@ export default function Home() {
       </header>
       <main>
         <Hero />
+        <Categories />
       </main>
     </>
   )

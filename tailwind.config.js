@@ -9,6 +9,7 @@ export default {
       colors: { 
         'black-100': '#191919',
         'orange-100': '#D87D4A',
+        'white-100': '#F1F1F1',
       },
       fontSize: {
         '13-sm': 'calc(0.0625rem + 3.2vw)',

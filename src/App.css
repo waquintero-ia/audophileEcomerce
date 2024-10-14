@@ -2,6 +2,8 @@
   --flow-space-title: 4.27vw;
   --flow-space-hero: 7.47vw;
   --flow-space-description: 6.4vw;
+  --flow-space-category-list: 18.14vw;
+  --flow-space-category-description: 4.54vw;
 }
 
 body {
@@ -27,6 +29,20 @@ body {
 
 .flow__hero__title > * + * {
   margin-top: var(--flow-space-title, 1em);
+}
+
+.flow__category__list > * + * {
+  margin-top: var(--flow-space-category-list);
+}
+
+.flow__category__description > * + * {
+  margin-top: var(--flow-space-category-description);
+}
+
+
+
+[data-type="arrow__right"] {
+  margin-right: 1.07vw;
 }
 
 @media (min-width: 48rem){
