@@ -28,3 +28,23 @@ body {
 .flow__hero__title > * + * {
   margin-top: var(--flow-space-title, 1em);
 }
+
+@media (min-width: 48rem){
+  .flow__hero > * + * {
+    margin-top: 5.21vw;
+  }
+
+  .flow__hero__description > * + * {
+    margin-top: 3.125vw;
+  }
+
+  .flow__hero__title > * + * {
+    margin-top: 3.125vw;
+  }
+
+  .hero{
+    background-size: 102%;
+    background-position-y: -13.34vw;
+  }
+
+}
