@@ -48,3 +48,25 @@ body {
   }
 
 }
+
+@media (min-width: 80rem){
+  .flow__hero > * + * {
+    margin-top: 2.78vw;
+  }
+
+  .flow__hero__description > * + * {
+    margin-top: 1.67vw;
+  }
+
+  .flow__hero__title > * + * {
+    margin-top: 1.67vw;
+  }
+
+  .hero{
+    background-image: url('/images/image-hero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -6.94vw;
+  }
+}
