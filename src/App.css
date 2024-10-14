@@ -87,6 +87,15 @@ body {
     margin-top: 1.67vw;
   }
 
+  .flow__category__list > * + * {
+    margin-top: 0;
+    margin-left: 2.09vw;
+  }
+
+  .flow__category__description > * + * {
+    margin-top: 1.05vw;
+  }
+
   .hero{
     background-image: url('/images/image-hero.jpg');
     background-size: 100%;

@@ -21,6 +21,7 @@ export default {
         '15-sm': 'calc(0.0625rem + 3.74vw)',
         '15-md': 'calc(0.0625rem + 1.83vw)',
         '15-xl': 'calc(0.0625rem + 1.04vw)',
+        '18-xl': 'calc(0.0625rem + 1.19vw)',
         '36-sm': 'calc(0.0625rem + 9.34vw)',
         '56-md': 'calc(0.0625rem + 7.17vw)',
         '56-xl': 'calc(0.0625rem + 3.82vw)',
