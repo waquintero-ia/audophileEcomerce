@@ -58,6 +58,15 @@ body {
     margin-top: 3.125vw;
   }
 
+  .flow__category__list > * + * {
+    margin-top: 0;
+    margin-left: 1.31vw;
+  }
+
+  .flow__category__description > * + * {
+    margin-top: 2.22vw;
+  }
+
   .hero{
     background-size: 102%;
     background-position-y: -13.34vw;
