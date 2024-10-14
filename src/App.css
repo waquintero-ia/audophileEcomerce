@@ -9,6 +9,14 @@ body {
   min-height: 100vh;
 }
 
+.hero{
+  background-image: url('/images/image-header.jpg');
+  background-size: 155%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -13.34vw;
+}
+
 .flow__hero > * + * {
   margin-top: var(--flow-space-hero, 1em);
 }
