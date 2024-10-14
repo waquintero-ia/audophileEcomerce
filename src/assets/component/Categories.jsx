@@ -16,7 +16,7 @@ const Categories = () => {
               category={card.category}
             />
           </li>
-          ))
+        ))
       }
       </ul>
       
