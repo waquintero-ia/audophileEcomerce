@@ -11,7 +11,7 @@ const global__nav__md = 'md:px-[5.20vw] md:py-[4.16vw] '
 const global__nav__li__md = 'md:ml-[42px] md:mr-auto'
 
 const global__nav__xl = 'xl:pt-[2.23vw] xl:pb-[2.5vw] xl:px-0 xl:mx-auto xl:w-[77.09vw]'
-const global__nav__li__xl = 'xl:ml-[13.69vw] mr-[22.02vw]'
+const global__nav__li__xl = 'xl:ml-[13.69vw] xl:mr-[22.02vw]'
 
 const Navigation = () => {
   return (

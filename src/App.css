@@ -1,4 +1,22 @@
+:root {
+  --flow-space-title: 4.27vw;
+  --flow-space-hero: 7.47vw;
+  --flow-space-description: 6.4vw;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   min-height: 100vh;
+}
+
+.flow__hero > * + * {
+  margin-top: var(--flow-space-hero, 1em);
+}
+
+.flow__hero__description > * + * {
+  margin-top: var(--flow-space-description, 1em);
+}
+
+.flow__hero__title > * + * {
+  margin-top: var(--flow-space-title, 1em);
 }
