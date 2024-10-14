@@ -1,7 +1,7 @@
-import Cart from './Cart'
-import Hamburger from './Hamburger'
-import Logo from './Logo'
-import NavList from './NavList'
+import NavigationCart from './NavigationCart'
+import NavigationHamburger from './NavigationHamburger'
+import NavigationLogo from './NavigationLogo'
+import NavigationList from './NaviagationList'
 
 const global__nav = 'px-[6.4vw] py-[8.54vw]'
 const global__nav__ul = 'flex items-center'
@@ -20,23 +20,23 @@ const Navigation = () => {
         <ul className={`${global__nav__ul}`}>
           <li>
             <div className="xl:hidden">
-              <Hamburger />
+              <NavigationHamburger />
             </div>
             <div className='hidden xl:block'>
-              <Logo />
+              <NavigationLogo />
             </div>
             
           </li>
           <li className={`${global__nav__li} ${global__nav__li__md} ${global__nav__li__xl}`}>
             <div className='xl:hidden'>
-              <Logo />
+              <NavigationLogo />
             </div>
             <div className='hidden xl:block'>
-              <NavList />
+              <NavigationList />
             </div>
           </li>
           <li>
-            <Cart />
+            <NavigationCart />
           </li>
         </ul>
       </nav>

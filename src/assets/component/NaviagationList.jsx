@@ -1,4 +1,4 @@
-const NavList = () => {
+const NavigationList = () => {
 
   const global__nav__list = 'text-13 text-bold tracking-[0.125rem] leading-[52%] flex justify-between uppercase text-white w-[29.80vw]'
 
@@ -14,4 +14,4 @@ const NavList = () => {
   )
 }
 
-export default NavList
+export default NavigationList
